@@ -1,4 +1,49 @@
 footer {
   display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  height: 45vh;
 
+  .social-links,
+  .sponsor,
+  .newsletter {
+    margin: 10px;
+    max-width: 30vw;
+    padding-top: 35px;
+  }
+
+  //Right column of the footer
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-logo {
+    display: flex;
+    justify-content: center;
+
+    a,
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+
+    a {
+      margin: 10px;
+    }
+
+  }
+
+  //Middle column of the footer
+  .sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  //Left column of the footer
+  .newsletter {
+
+  }
 }

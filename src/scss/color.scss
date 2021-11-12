@@ -1,0 +1,17 @@
+
+$basecolor: #2c4444;
+$secondcolor: #cad0d1;
+$thirdcolor: #94a4a4;
+$fourthcolor: #8c9c9c;
+$white: #FFFFFF;
+
+
+.btn-first {
+  color: $white;
+  background-color: $basecolor;
+
+  &:hover {
+    color: $white;
+    background-color: $fourthcolor;
+  }
+}

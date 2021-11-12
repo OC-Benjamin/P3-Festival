@@ -1,2 +1,59 @@
-header .header-img {
+.movies {
+  background: linear-gradient(90deg, rgb(22,22,22), black);
+  position: relative;
+  height: 1000px;
+
+  .bg-theater {
+    background: url("/src/img/bg-revealedmovies.jpeg");
+    height: 670px;
+
+  }
+
+  h2 {
+    font-size: 20px;
+    color: $white;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+
+    &:before {
+      content:'';
+      width:3em;
+      border-bottom:$thirdcolor solid;
+      display:inline-block;
+      vertical-align:middle;
+      margin-left: 3.5em;
+    }
+
+    span {
+      font-size: 50px;
+      margin-left: 2.8em;
+    }
+  }
+
+  .movies-gallery {
+    position: absolute;
+    top: 250px;
+    display: flex;
+    margin: 100px 0 0 150px;
+
+
+    .movie-card {
+      display: flex;
+      margin: 5px;
+      flex-direction: column;
+      align-items: center;
+
+      .movie-title {
+        color: $white;
+        font-size: 1.2rem;
+        padding-top: 10px;
+        margin: 0;
+      }
+      .movie-realisator{
+        color: $fourthcolor;
+        margin: 0;
+      }
+    }
+  }
 }

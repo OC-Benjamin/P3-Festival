@@ -14,4 +14,11 @@ $white: #FFFFFF;
     color: $white;
     background-color: $fourthcolor;
   }
+
+  a,
+  a:link,
+  a:visited{
+    text-decoration: none;
+    color: $white;
+  }
 }

@@ -31,7 +31,45 @@
         </div>
     </div>
 </nav>
-
+<section class="movie row">
+    <div class="movie-card col-6">
+        <h3 class="movie-title">Titre du film</h3>
+        <img src="https://via.placeholder.com/250x400" alt="affiche" class="img-fluid">
+        <p class="movie-description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut debitis eveniet incidunt minima non provident sint veniam. Consequuntur, ullam?
+        </p>
+    </div>
+    <div class="movie-reservation col-5">
+        <h4>Réserver vos places</h4>
+        <form class="row g-3">
+            <div class="col-md-3">
+                <label for="date" class="form-label">Date</label>
+                <input type="date" class="form-control" id="date">
+            </div>
+            <div class="col-md-2">
+                <label for="places" class="form-label">Nombre</label>
+                <input type="number" class="form-control" id="places" placeholder="1">
+            </div>
+            <div class="row col-12">
+                <div class="col-md-4">
+                    <label for="firstName" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="firstName">
+                </div>
+                <div class="col-md-4">
+                    <label for="lastName" class="form-label">Prénom</label>
+                    <input type="text" class="form-control" id="lastName">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="email-reservation" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email-reservation">
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-first">Réserver</button>
+            </div>
+        </form>
+    </div>
+</section>
 <footer class="row">
     <div class="row justify-content-center">
         <div class="social-links col-10 col-lg-5">

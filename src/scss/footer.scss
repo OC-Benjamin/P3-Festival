@@ -34,7 +34,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-left: 1px solid #94a4a4;
   }
   //Lower row of the footer
   .sponsor {
@@ -43,5 +42,11 @@ footer {
     align-items: center;
     border-top: 1px solid #8c9c9c;
     margin-bottom: 25px;
+  }
+}
+
+@media(min-width: 992px) {
+  .newsletter {
+    border-left: 1px solid #94a4a4;
   }
 }

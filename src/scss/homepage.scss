@@ -1,6 +1,6 @@
 //Banner
 .hero {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/img/header2.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../src/img/header2.jpeg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,9 +54,9 @@
   background: linear-gradient(90deg, rgb(22,22,22), black);
   position: relative;
 
-  .bg-theater {
-    background: url("/src/img/bg-revealedmovies.jpeg");
-    height: 670px;
+  .movies-title {
+    background: url("../../src/img/bg-revealedmovies.jpeg");
+    height: 350px;
   }
 
   h2 {
@@ -83,23 +83,19 @@
 
   .movies-gallery {
     display: flex;
-    margin: -350px 0 100px 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
 
     .movie-card {
       display: flex;
-      margin: 5px;
       flex-direction: column;
       align-items: center;
+      margin: 15px;
+      color: #FFFFFF;
 
       .movie-title {
-        color: $white;
-        font-size: 1.2rem;
-        padding-top: 10px;
-        margin: 0;
-      }
-      .movie-realisator{
-        color: $fourthcolor;
-        margin: 0;
+        margin: 5px 0;
       }
     }
   }

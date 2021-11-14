@@ -4,10 +4,10 @@ Maquette html/css du P3 OC-Symfony
 #Installation
 ```npm install```
 
-##See a page
+##Après modification du scss
 
-```npx parcel fichier.html```
+```npm run sass```
 
-Ensuite aller sur http://localhost:1234
+
 
 

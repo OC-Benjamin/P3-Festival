@@ -1,9 +1,19 @@
 {
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.1",
-    "parcel": "^2.0.1"
+  "name": "p3-festival",
+  "version": "1.0.0",
+  "description": "Maquette html/css du P3 OC-Symfony",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass --watch ./src/scss/main.scss:./src/css/styles.css"
   },
-  "dependencies": {
-    "bootstrap-icons": "^1.7.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OC-Benjamin/P3-Festival.git"
+  },
+  "author": "Benjamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OC-Benjamin/P3-Festival/issues"
+  },
+  "homepage": "https://github.com/OC-Benjamin/P3-Festival#readme"
 }

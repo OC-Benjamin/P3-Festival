@@ -1,5 +1,4 @@
 .movie {
-  height: 100vh;
   align-items: center;
   justify-content: space-between;
 
@@ -9,6 +8,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 25px 0;
   }
 
   .movie-card {
@@ -20,10 +20,13 @@
     }
   }
 
-  .movie-reservation {
-    border-left: #94a4a4 1px solid ;
-    form {
+  .movie-reservation form {
       margin-top: 15px;
-    }
+  }
+}
+
+@media(min-width: 992px) {
+  .movie-reservation {
+    border-left: #94a4a4 1px solid;
   }
 }

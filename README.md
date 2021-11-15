@@ -1,12 +1,20 @@
 # P3-Festival
 Maquette html/css du P3 OC-Symfony
 
-#Installation
+##Afficher une page :
+
+Ouvrez simplement le fichier maPage.html dans un navigateur. 
+
+
+##Modifier le style
+###Installation
 ```npm install```
 
-##Après modification du scss
+Faire vos modifications
 
-```npm run sass```
+###Après modification du scss
+
+```npm run build```
 
 
 

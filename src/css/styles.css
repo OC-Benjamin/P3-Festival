@@ -198,10 +198,20 @@ footer .sponsor {
   padding: 50px;
 }
 
+.contact h2 {
+  text-align: center;
+  padding: 25px;
+}
+
 .contact .contact-map {
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-top: 50px;
+}
+
+.contact .contact-map p {
+  font-size: 20px;
 }
 
 .news-summary {

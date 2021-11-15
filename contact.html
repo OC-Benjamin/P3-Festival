@@ -33,29 +33,40 @@
 </nav>
 <section class="contact container-fluid">
     <h2>Contactez nous !</h2>
-    <form class="row g-3">
-        <div class="col-md-6">
-            <label for="name" class="form-label">Nom</label>
-            <input type="text" class="form-control" id="name">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="col-md-6">
+                    <label for="surname" class="form-label">Prénom</label>
+                    <input type="text" class="form-control" id="surname">
+                </div>
+                <div class="col-12">
+                    <label for="email-contact" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email-contact" placeholder="email">
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">Votre message</label>
+                    <textarea class="form-control" id="message" placeholder="Je souhaites vous contacter pour .."></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-first">Envoyer</button>
+                </div>
+            </form>
         </div>
-        <div class="col-md-6">
-            <label for="surname" class="form-label">Prénom</label>
-            <input type="text" class="form-control" id="surname">
+    </div>
+    <div class="contact-map row">
+        <img src="https://via.placeholder.com/650x400" alt="placeholder map" class="img-fluid col-12 col-md-8">
+        <div class="col-12 col-md-4">
+            <p>
+                Festival des films <br> de plein air <br>
+                Parc Monceau 169<br>
+                10000 Paris
+            </p>
         </div>
-        <div class="col-12">
-            <label for="email-contact" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email-contact" placeholder="email">
-        </div>
-        <div class="col-12">
-            <label for="message" class="form-label">Votre message</label>
-            <textarea class="form-control" id="message" placeholder="Je souhaites vous contacter pour .."></textarea>
-        </div>
-        <div class="col-12">
-            <button type="submit" class="btn btn-first">Envoyer</button>
-        </div>
-    </form>
-    <div class="contact-map">
-        <img src="https://via.placeholder.com/650x400" alt="placeholder map" class="img-fluid">
     </div>
 </section>
 <footer class="row">

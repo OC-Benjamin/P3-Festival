@@ -4,7 +4,7 @@
   "description": "Maquette html/css du P3 OC-Symfony",
   "main": "index.js",
   "scripts": {
-    "sass" : "sass --watch ./src/scss/main.scss:./src/css/styles.css"
+    "build": "node-sass --output-style expanded --source-map true --source-map-contents true ./src/scss/main.scss ./src/css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/OC-Benjamin/P3-Festival/issues"
   },
-  "homepage": "https://github.com/OC-Benjamin/P3-Festival#readme"
+  "homepage": "https://github.com/OC-Benjamin/P3-Festival#readme",
+  "devDependencies": {
+    "clean-css-cli": "^5.4.2",
+    "node-sass": "^6.0.1"
+  }
 }

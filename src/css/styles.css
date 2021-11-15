@@ -285,6 +285,21 @@ footer .sponsor {
   justify-content: center;
 }
 
+@media (max-width: 992px) {
+  .about .title h3 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about .title h3 {
+    font-size: 20px;
+  }
+  .about .intro p {
+    font-size: 14px;
+  }
+}
+
 .movie {
   align-items: center;
   justify-content: space-between;

@@ -1,4 +1,52 @@
 footer {
-  display: flex;
+  padding-top: 25px;
 
+  .social-links,
+  .sponsor,
+  .newsletter {
+    margin: 10px;
+    padding-top: 35px;
+  }
+
+  //Left column of the footer
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-logo {
+    display: flex;
+    justify-content: center;
+
+    a,
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+
+    a {
+      margin: 10px;
+    }
+  }
+  //Right column of the footer
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  //Lower row of the footer
+  .sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #8c9c9c;
+    margin-bottom: 25px;
+  }
+}
+
+@media(min-width: 992px) {
+  .newsletter {
+    border-left: 1px solid #94a4a4;
+  }
 }

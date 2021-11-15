@@ -1,2 +1,102 @@
-header .header-img {
+//Banner
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../src/img/header2.jpeg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .hero-title {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+
+//Section news
+.news {
+  padding: 15px;
+  height: 100vh;
+  justify-content: flex-end;
+
+  h2 {
+    padding: 25px 0 0 50px;
+    font-size: 20px;
+  }
+
+  .main-news,
+  .secondary-news {
+    display: flex;
+    justify-content: flex-end;
+    .news-info {
+      margin-right: 50px;
+    }
+  }
+
+  .secondary-news {
+    align-items: center;
+    border-top: #94a4a4 0.5px solid;
+    border-right: #94a4a4 0.5px solid;
+    margin-bottom: 25px;
+  }
+
+  .news-date {
+    color: red;
+  }
+}
+
+//Section programmation
+.movies {
+  background: linear-gradient(90deg, rgb(22,22,22), black);
+  position: relative;
+
+  .movies-title {
+    background: url("../../src/img/bg-revealedmovies.jpeg");
+    height: 350px;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: $white;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+
+    &:before {
+      content:'';
+      width:3em;
+      border-bottom:$thirdcolor solid;
+      display:inline-block;
+      vertical-align:middle;
+      margin-left: 3.5em;
+    }
+
+    span {
+      font-size: 50px;
+      margin-left: 2.8em;
+    }
+  }
+
+  .movies-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+
+    .movie-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 15px;
+      color: #FFFFFF;
+
+      .movie-title {
+        margin: 5px 0;
+      }
+    }
+  }
 }

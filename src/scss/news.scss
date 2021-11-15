@@ -1,0 +1,45 @@
+.news-summary {
+  margin: 50px 0;
+
+  h2 {
+    color: #2c4444;
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  .news-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news-card {
+    display: flex;
+    margin: 15px;
+  }
+
+  .news-aside {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+    .news-title {
+      color: #2c4444;
+    }
+
+    .news-date {
+      align-self: flex-end;
+      color: #94a4a4;
+    }
+
+    .news-description {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media(max-width: 576px){
+  .news-summary img {
+    display: none;
+  }
+}
